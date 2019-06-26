@@ -34,3 +34,7 @@ class Clone(Github):
 
 class Issue(Github):
 	pass
+
+
+class Branch(Github):
+	pass
