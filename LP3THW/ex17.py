@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created by Serino at 04/16/2018
+"""
+
+from os.path import exists
+
+fromFile = open(input("From>>"), "r+")
+indate = fromFile.read()
+print(f"The input file is {len(indate)} bytes long")
+
+toFile = open(input("To>>"), "w+")
+toFile.write(indate)
+
+fromFile.close()
+toFile.close()
