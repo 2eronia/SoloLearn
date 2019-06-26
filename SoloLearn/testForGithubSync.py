@@ -42,3 +42,7 @@ class Branch(Github):
 
 class Update(Github):
 	pass
+
+
+class VCS(Github):
+	pass
