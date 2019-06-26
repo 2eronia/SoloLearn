@@ -38,3 +38,7 @@ class Issue(Github):
 
 class Branch(Github):
 	pass
+
+
+class Update(Github):
+	pass
