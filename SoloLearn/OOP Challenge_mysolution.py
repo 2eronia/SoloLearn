@@ -5,7 +5,7 @@ class Account:
 		self.balance = balance
 
 	def __str__(self):
-		return f"Owner: {self.owner} \nBalance: ${self.balance}"
+		return f"Owner: {self.owner}\nBalance: ${self.balance}"
 
 	def __len__(self):
 		return 30
