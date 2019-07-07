@@ -5,7 +5,7 @@ class Account:
 		self.balance = balance
 
 	def __str__(self):
-		return f"Owner{self.owner} \nBalance:${self.balance}"
+		return f"Owner: {self.owner} \nBalance: ${self.balance}"
 
 	def __len__(self):
 		return 30
@@ -14,16 +14,16 @@ class Account:
 		if amount > 0:
 			self.balance += amount
 			print("Deposit Accepted")
-			print(f"Account Balance:${self.balance}")
+			print(f"Account Balance: ${self.balance}")
 
 	def withdraw(self, amount):
 		if amount > 0 and self.balance >= amount:
 			self.balance -= amount
 			print("Withdraw Accepted")
-			print(f"Account Balance:${self.balance}")
+			print(f"Account Balance: ${self.balance}")
 		else:
 			print("Funds Unavalable")
-			print(f"Account Balance:${self.balance}")
+			print(f"Account Balance: ${self.balance}")
 
 
 # output
