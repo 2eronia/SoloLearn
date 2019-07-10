@@ -16,6 +16,7 @@ def ask_for_int():
 			break
 '''
 
+
 def ask_for_int():
 	try:
 		n = int(input('Please input a num: '))
@@ -24,5 +25,6 @@ def ask_for_int():
 		ask_for_int()
 	else:
 		print(f'Your num squared is {n**2}')
+
 
 ask_for_int()
