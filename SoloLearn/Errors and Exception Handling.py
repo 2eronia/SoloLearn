@@ -24,8 +24,9 @@ def ask_for_ini():
 		finally:
 			print('End of try/except/finally')
 			print("I'll always run at the end")
-
 '''
+
+
 def ask_for_ini():
 	try:
 		result = int(input("Please enter a num: "))
@@ -35,8 +36,10 @@ def ask_for_ini():
 	else:
 		print("Thanks")
 		print('End of try/except/finally')
-	# finally:
-	# 	print('End of try/except/finally')
-	# 	print("I'll always run at the end")
+
+
+# finally:
+# 	print('End of try/except/finally')
+# 	print("I'll always run at the end")
 
 ask_for_ini()
