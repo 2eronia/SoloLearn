@@ -4,6 +4,9 @@ Created by serin at 7/11/2019
 """
 
 '''
+import pysnooper
+
+
 def ask_for_int():
 	while True:
 		try:
@@ -15,6 +18,7 @@ def ask_for_int():
 			print(f'Your num squared is {n**2}')
 			break
 '''
+
 
 
 def ask_for_int():

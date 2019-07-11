@@ -27,7 +27,7 @@ def ask_for_ini():
 '''
 
 
-def ask_for_ini():
+def ask_for_int():
 	try:
 		result = int(input("Please enter a num: "))
 	except:
@@ -42,4 +42,4 @@ def ask_for_ini():
 # 	print('End of try/except/finally')
 # 	print("I'll always run at the end")
 
-ask_for_ini()
+ask_for_int()
