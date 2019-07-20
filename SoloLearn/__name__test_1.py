@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created by serin at 7/9/2019
+Created by Serino at 7/9/2019
 """
 
 print(f"Hello World from {__name__}")
