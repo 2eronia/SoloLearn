@@ -11,4 +11,3 @@ print("The cat is", personality)
 nice = 2
 personality = ("mean", "nice","cute")[nice]
 print("The cat is", personality)
-# Output: The cat is nice
