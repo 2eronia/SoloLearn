@@ -11,7 +11,7 @@ finally:
 '''
 
 '''
-def ask_for_ini():
+def ask_for_int():
 	while True:
 		try:
 			result = int(input("Please enter a num: "))
