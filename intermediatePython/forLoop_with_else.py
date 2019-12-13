@@ -5,7 +5,7 @@ Created by AnonymouS at 12/6/2019
 import pysnooper
 
 
-@pysnooper.snoop()
+# @pysnooper.snoop()
 def yield_prime_nums(num):
 	for i in range(2, num+1):
 		for j in range(2, i // 2):
@@ -14,5 +14,5 @@ def yield_prime_nums(num):
 		else:
 			yield i
 
-
-print(list(yield_prime_nums(int(input("input a number:")))))
+input_num = int(input("input a number:\n"))
+prime_nums_output = print(list(yield_prime_nums(input_num)))
