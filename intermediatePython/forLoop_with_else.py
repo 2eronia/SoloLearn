@@ -9,7 +9,7 @@ import time
 
 # @pysnooper.snoop()
 def yield_prime_nums(num):
-	for i in range(2, num + 1):
+	for i in range(1, num + 1, 2):
 		for j in range(2, i // 2):
 			if i % j == 0:
 				break
